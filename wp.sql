@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 02, 2017 at 04:39 AM
+-- Generation Time: Feb 02, 2017 at 04:56 AM
 -- Server version: 10.1.19-MariaDB
 -- PHP Version: 7.0.13
 
@@ -207,7 +207,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (101, 'widget_calendar', 'a:3:{i:2;a:1:{s:5:"title";s:0:"";}i:3;a:1:{s:5:"title";s:0:"";}s:12:"_multiwidget";i:1;}', 'yes'),
 (102, 'widget_tag_cloud', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
 (103, 'widget_nav_menu', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
-(104, 'cron', 'a:6:{i:1486007070;a:1:{s:20:"jetpack_clean_nonces";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:6:"hourly";s:4:"args";a:0:{}s:8:"interval";i:3600;}}}i:1486018902;a:3:{s:16:"wp_version_check";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:17:"wp_update_plugins";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:16:"wp_update_themes";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}}i:1486020505;a:1:{s:19:"wp_scheduled_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1486020604;a:1:{s:30:"wp_scheduled_auto_draft_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1486073362;a:1:{s:19:"zillah_log_activity";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:2:{s:8:"schedule";b:0;s:4:"args";a:0:{}}}}s:7:"version";i:2;}', 'yes'),
+(104, 'cron', 'a:6:{i:1486010670;a:1:{s:20:"jetpack_clean_nonces";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:6:"hourly";s:4:"args";a:0:{}s:8:"interval";i:3600;}}}i:1486018902;a:3:{s:16:"wp_version_check";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:17:"wp_update_plugins";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:16:"wp_update_themes";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}}i:1486020505;a:1:{s:19:"wp_scheduled_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1486020604;a:1:{s:30:"wp_scheduled_auto_draft_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1486073362;a:1:{s:19:"zillah_log_activity";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:2:{s:8:"schedule";b:0;s:4:"args";a:0:{}}}}s:7:"version";i:2;}', 'yes'),
 (105, 'nonce_key', 'xNC{N%[5dtKjj|Z;NGooUCc.]LH`]&b_aL}]2O@PVA`bg/K7,?{4odi{=K` HRXS', 'no'),
 (106, 'nonce_salt', 'eZ+0{dG%TF jiHfMF:NrQ6J&,c N~S@J~(I*ut7dj_jWkA$O@9AU$q3[k_PGez5R', 'no'),
 (107, 'theme_mods_twentyseventeen', 'a:2:{s:18:"custom_css_post_id";i:-1;s:16:"sidebars_widgets";a:2:{s:4:"time";i:1485848528;s:4:"data";a:4:{s:19:"wp_inactive_widgets";a:0:{}s:9:"sidebar-1";a:6:{i:0;s:8:"search-2";i:1;s:14:"recent-posts-2";i:2;s:17:"recent-comments-2";i:3;s:10:"archives-2";i:4;s:12:"categories-2";i:5;s:6:"meta-2";}s:9:"sidebar-2";a:0:{}s:9:"sidebar-3";a:0:{}}}}', 'yes'),
@@ -280,10 +280,10 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (443, '_transient_jetpack_idc_allowed', '1', 'no'),
 (448, '_site_transient_timeout_theme_roots', '1486006998', 'no'),
 (449, '_site_transient_theme_roots', 'a:6:{s:10:"adirondack";s:7:"/themes";s:6:"sample";s:7:"/themes";s:13:"twentyfifteen";s:7:"/themes";s:15:"twentyseventeen";s:7:"/themes";s:13:"twentysixteen";s:7:"/themes";s:6:"zillah";s:7:"/themes";}', 'no'),
-(450, '_transient_is_multi_author', '0', 'yes'),
 (451, '_transient_timeout_zillah-update-response', '2972056086', 'no');
 INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
-(452, '_transient_zillah-update-response', 'O:8:"stdClass":12:{s:11:"new_version";s:5:"1.1.1";s:4:"name";s:6:"Zillah";s:4:"slug";s:6:"zillah";s:3:"url";s:48:"https://themeisle.com/themes/zillah/?changelog=1";s:12:"last_updated";s:19:"2017-01-04 08:30:57";s:8:"homepage";s:36:"https://themeisle.com/themes/zillah/";s:7:"package";s:55:"http://downloads.themeisle.com/zillah/latest/zillah.zip";s:13:"download_link";s:55:"http://downloads.themeisle.com/zillah/latest/zillah.zip";s:8:"sections";a:2:{s:11:"description";s:0:"";s:9:"changelog";s:2682:"<p>v1.0.12 - 02/08/2016 Changes: </p>\n<ul>\n<li>Fixed issue with html beeing outputed in author description</li>\n</ul>\n<p>v1.0.11 - 08/07/2016 Changes: </p>\n<li>Fixed responsive isseus with the menu\n<li>\n<li>Limit text for next / prev buttons\n<li>\n<li>Decreased search page title on mobile devices\n<li>\n<li>Added hooks\n<li>\n<li>Decreased header on mobile devices\n<li>v1.0.10 - 01/07/2016<br />\nChanges:</p>\n<ul>\n<li>Update style.css</li>\n<li>\nv1.0.9 - 30/06/2016<br />\nChanges:</p>\n</li>\n<li>Fixed Custom logo customizer issue</li>\n<li>\nv1.0.8 - 21/06/2016<br />\nChanges:</p>\n</li>\n<li>Added missing sanitizations</li>\n<li>\nv1.0.7 - 21/06/2016<br />\nChanges:</p>\n</li>\n<li>Fixed image padding issue in post content</li>\n<li>Retina logo</li>\n<li>Fixed issue with enqueued script for child themes</li>\n<li>Add option for custom fonts family and size</li>\n<li>Show author gravatar only if the name or description exists</li>\n<li>Add support for post formats</li>\n<li>\nv1.0.6 - 14/06/2016<br />\nChanges:</p>\n<ul>\n<li>Fixed layout for related posts on mobile devices</li>\n<li>Aligned the menu on the left side on tablets</li>\n<li>Add option to show the first image in the content as featured image</li>\n<li>Remove posts featured in the slider, from the posts list</li>\n<li>\nv1.0.5 - 13/06/2016<br />\nChanges:</p>\n</li>\n<li>Fixed issues with mobile menu color schemes</li>\n<li>New screenshot</li>\n<li>Fixed issues with font sizes on mobile devices</li>\n<li>Fixed issues with comments layout on mobile devices</li>\n<li>Fixed the option to hide post tags</li>\n<li>Fixed issue with scrolling header on Safari</li>\n<li>Add unminified scripts for all the minified scripts used</li>\n<li>Update scripts licenses</li>\n<li>\nv1.0.4 - 08/06/2016<br />\nChanges:</p>\n<ul>\n<li>Update style for related posts</li>\n<li>\nv1.0.2 - 07/06/2016<br />\nChanges:</p>\n</li>\n<li>Fixed issue with Related Posts</li>\n<li>\nv1.0.1 - 07/06/2016<br />\nChanges:</p>\n</li>\n<li>Add colors schemes options</li>\n<li>Fixed sanitizations</li>\n<li>Regenerate .pot file</li>\n<li>Style Trackbacks and Pingbacks</li>\n<li>Style Galleries</li>\n<li>\nv1.0.0 - 01/06/2016<br />\nChanges:</p>\n</li>\n<li>New design</li>\n<li></li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p>v1.0.15 - 21/11/2016 Changes: </p>\n<ul>\n<li>NEW Blog and single layout\n</li>\n<li>Display the sidebar on mobile, if the option to show the sidebar is selected\n</li>\n<li>Added grunt   fixed all generated issues</li>\n</ul>\n<p>v1.1.0 - 16/12/2016 Changes: </p>\n<ul>\n<li>Fixed layout issue on search results page\n</li>\n<li>Improved customizer options for slider and sidebar</li>\n</ul>\n<p>v1.1.1 - 25/01/2017 Changes: </p>\n<ul>\n<li>Support for Jetpack''s related post date</li>\n</ul>\n";}s:7:"banners";s:41:"a:2:{s:4:"high";s:0:"";s:3:"low";s:0:"";}";s:6:"tested";s:5:"4.5.1";s:13:"compatibility";s:82:"a:1:{s:5:"4.5.1";a:1:{s:6:"1.5.15";a:3:{i:0;s:4:"100%";i:1;s:1:"5";i:2;s:1:"5";}}}";}', 'no');
+(452, '_transient_zillah-update-response', 'O:8:"stdClass":12:{s:11:"new_version";s:5:"1.1.1";s:4:"name";s:6:"Zillah";s:4:"slug";s:6:"zillah";s:3:"url";s:48:"https://themeisle.com/themes/zillah/?changelog=1";s:12:"last_updated";s:19:"2017-01-04 08:30:57";s:8:"homepage";s:36:"https://themeisle.com/themes/zillah/";s:7:"package";s:55:"http://downloads.themeisle.com/zillah/latest/zillah.zip";s:13:"download_link";s:55:"http://downloads.themeisle.com/zillah/latest/zillah.zip";s:8:"sections";a:2:{s:11:"description";s:0:"";s:9:"changelog";s:2682:"<p>v1.0.12 - 02/08/2016 Changes: </p>\n<ul>\n<li>Fixed issue with html beeing outputed in author description</li>\n</ul>\n<p>v1.0.11 - 08/07/2016 Changes: </p>\n<li>Fixed responsive isseus with the menu\n<li>\n<li>Limit text for next / prev buttons\n<li>\n<li>Decreased search page title on mobile devices\n<li>\n<li>Added hooks\n<li>\n<li>Decreased header on mobile devices\n<li>v1.0.10 - 01/07/2016<br />\nChanges:</p>\n<ul>\n<li>Update style.css</li>\n<li>\nv1.0.9 - 30/06/2016<br />\nChanges:</p>\n</li>\n<li>Fixed Custom logo customizer issue</li>\n<li>\nv1.0.8 - 21/06/2016<br />\nChanges:</p>\n</li>\n<li>Added missing sanitizations</li>\n<li>\nv1.0.7 - 21/06/2016<br />\nChanges:</p>\n</li>\n<li>Fixed image padding issue in post content</li>\n<li>Retina logo</li>\n<li>Fixed issue with enqueued script for child themes</li>\n<li>Add option for custom fonts family and size</li>\n<li>Show author gravatar only if the name or description exists</li>\n<li>Add support for post formats</li>\n<li>\nv1.0.6 - 14/06/2016<br />\nChanges:</p>\n<ul>\n<li>Fixed layout for related posts on mobile devices</li>\n<li>Aligned the menu on the left side on tablets</li>\n<li>Add option to show the first image in the content as featured image</li>\n<li>Remove posts featured in the slider, from the posts list</li>\n<li>\nv1.0.5 - 13/06/2016<br />\nChanges:</p>\n</li>\n<li>Fixed issues with mobile menu color schemes</li>\n<li>New screenshot</li>\n<li>Fixed issues with font sizes on mobile devices</li>\n<li>Fixed issues with comments layout on mobile devices</li>\n<li>Fixed the option to hide post tags</li>\n<li>Fixed issue with scrolling header on Safari</li>\n<li>Add unminified scripts for all the minified scripts used</li>\n<li>Update scripts licenses</li>\n<li>\nv1.0.4 - 08/06/2016<br />\nChanges:</p>\n<ul>\n<li>Update style for related posts</li>\n<li>\nv1.0.2 - 07/06/2016<br />\nChanges:</p>\n</li>\n<li>Fixed issue with Related Posts</li>\n<li>\nv1.0.1 - 07/06/2016<br />\nChanges:</p>\n</li>\n<li>Add colors schemes options</li>\n<li>Fixed sanitizations</li>\n<li>Regenerate .pot file</li>\n<li>Style Trackbacks and Pingbacks</li>\n<li>Style Galleries</li>\n<li>\nv1.0.0 - 01/06/2016<br />\nChanges:</p>\n</li>\n<li>New design</li>\n<li></li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p>v1.0.15 - 21/11/2016 Changes: </p>\n<ul>\n<li>NEW Blog and single layout\n</li>\n<li>Display the sidebar on mobile, if the option to show the sidebar is selected\n</li>\n<li>Added grunt   fixed all generated issues</li>\n</ul>\n<p>v1.1.0 - 16/12/2016 Changes: </p>\n<ul>\n<li>Fixed layout issue on search results page\n</li>\n<li>Improved customizer options for slider and sidebar</li>\n</ul>\n<p>v1.1.1 - 25/01/2017 Changes: </p>\n<ul>\n<li>Support for Jetpack''s related post date</li>\n</ul>\n";}s:7:"banners";s:41:"a:2:{s:4:"high";s:0:"";s:3:"low";s:0:"";}";s:6:"tested";s:5:"4.5.1";s:13:"compatibility";s:82:"a:1:{s:5:"4.5.1";a:1:{s:6:"1.5.15";a:3:{i:0;s:4:"100%";i:1;s:1:"5";i:2;s:1:"5";}}}";}', 'no'),
+(463, '_transient_is_multi_author', '0', 'yes');
 
 -- --------------------------------------------------------
 
@@ -484,7 +484,10 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (226, 56, '_thumbnail_id', '57'),
 (229, 60, '_edit_last', '1'),
 (230, 60, '_thumbnail_id', '58'),
-(233, 60, '_edit_lock', '1486005067:1');
+(233, 60, '_edit_lock', '1486005067:1'),
+(236, 62, '_edit_last', '1'),
+(237, 62, '_edit_lock', '1486007653:1'),
+(238, 62, '_thumbnail_id', '57');
 
 -- --------------------------------------------------------
 
@@ -579,7 +582,11 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (58, 1, '2017-02-02 03:11:39', '2017-02-02 03:11:39', '', 'coffee', '', 'inherit', 'open', 'closed', '', 'coffee-2', '', '', '2017-02-02 03:11:39', '2017-02-02 03:11:39', '', 56, 'http://localhost/wordpress/wp-content/uploads/2017/02/coffee-1.jpg', 0, 'attachment', 'image/jpeg', 0),
 (59, 1, '2017-02-02 03:12:09', '2017-02-02 03:12:09', '', 'Reads and Eats', '', 'inherit', 'closed', 'closed', '', '56-revision-v1', '', '', '2017-02-02 03:12:09', '2017-02-02 03:12:09', '', 56, 'http://localhost/wordpress/56-revision-v1/', 0, 'revision', '', 0),
 (60, 1, '2017-02-02 03:12:30', '2017-02-02 03:12:30', '', 'Reads and Eats', '', 'publish', 'open', 'open', '', 'reads-and-eats-2', '', '', '2017-02-02 03:13:09', '2017-02-02 03:13:09', '', 0, 'http://localhost/wordpress/?p=60', 0, 'post', '', 0),
-(61, 1, '2017-02-02 03:12:30', '2017-02-02 03:12:30', '', 'Reads and Eats', '', 'inherit', 'closed', 'closed', '', '60-revision-v1', '', '', '2017-02-02 03:12:30', '2017-02-02 03:12:30', '', 60, 'http://localhost/wordpress/60-revision-v1/', 0, 'revision', '', 0);
+(61, 1, '2017-02-02 03:12:30', '2017-02-02 03:12:30', '', 'Reads and Eats', '', 'inherit', 'closed', 'closed', '', '60-revision-v1', '', '', '2017-02-02 03:12:30', '2017-02-02 03:12:30', '', 60, 'http://localhost/wordpress/60-revision-v1/', 0, 'revision', '', 0),
+(62, 1, '2017-02-02 03:54:24', '2017-02-02 03:54:24', '<div class="anyipsum-output">\r\n\r\nBacon ipsum dolor amet kevin ribeye ham hock porchetta ball tip burgdoggen, turkey chuck pork chop tenderloin sausage filet mignon landjaeger. Tri-tip turducken pork chop jerky, salami filet mignon t-bone fatback pancetta swine. Andouille kevin tri-tip corned beef, jowl jerky salami pork chop cow ham short loin frankfurter. Tenderloin beef ribs venison, meatloaf boudin turducken jerky ground round t-bone. Biltong ham hock tenderloin bresaola shank, salami chuck cow pancetta ground round alcatra. Landjaeger tri-tip swine rump sirloin.\r\n\r\nPork belly pastrami ball tip turkey tenderloin t-bone short ribs, cow rump ribeye spare ribs beef ribs prosciutto meatloaf. Chicken salami alcatra, short loin biltong jerky beef sausage bacon burgdoggen venison ball tip. Capicola boudin cow prosciutto. Tenderloin flank t-bone, boudin beef ribs spare ribs short ribs porchetta pancetta andouille meatball filet mignon. Pancetta bresaola cupim brisket sirloin kevin ham.\r\n\r\n</div>\r\n<div class="anyipsum-form-header">Does your lorem ipsum text long for something a little meatier? Give our generator a try… it’s tasty!</div>', 'sample sample', '', 'publish', 'open', 'open', '', 'sample-sample', '', '', '2017-02-02 03:56:34', '2017-02-02 03:56:34', '', 0, 'http://localhost/wordpress/?p=62', 0, 'post', '', 0),
+(63, 1, '2017-02-02 03:54:24', '2017-02-02 03:54:24', '', 'sample sample', '', 'inherit', 'closed', 'closed', '', '62-revision-v1', '', '', '2017-02-02 03:54:24', '2017-02-02 03:54:24', '', 62, 'http://localhost/wordpress/62-revision-v1/', 0, 'revision', '', 0),
+(64, 1, '2017-02-02 03:56:28', '2017-02-02 03:56:28', '<div class="anyipsum-output">\n\nBacon ipsum dolor amet kevin ribeye ham hock porchetta ball tip burgdoggen, turkey chuck pork chop tenderloin sausage filet mignon landjaeger. Tri-tip turducken pork chop jerky, salami filet mignon t-bone fatback pancetta swine. Andouille kevin tri-tip corned beef, jowl jerky salami pork chop cow ham short loin frankfurter. Tenderloin beef ribs venison, meatloaf boudin turducken jerky ground round t-bone. Biltong ham hock tenderloin bresaola shank, salami chuck cow pancetta ground round alcatra. Landjaeger tri-tip swine rump sirloin.\n\nPork belly pastrami ball tip turkey tenderloin t-bone short ribs, cow rump ribeye spare ribs beef ribs prosciutto meatloaf. Chicken salami alcatra, short loin biltong jerky beef sausage bacon burgdoggen venison ball tip. Capicola boudin cow prosciutto. Tenderloin flank t-bone, boudin beef ribs spare ribs short ribs porchetta pancetta andouille meatball filet mignon. Pancetta bresaola cupim brisket sirloin kevin ham.\n\n</div>\n<div class="anyipsum-form-header">Does your lorem ipsum text long for something a little meatier? Give our generator a try… it’s tasty!</div>', 'sample sample', '', 'inherit', 'closed', 'closed', '', '62-autosave-v1', '', '', '2017-02-02 03:56:28', '2017-02-02 03:56:28', '', 62, 'http://localhost/wordpress/62-autosave-v1/', 0, 'revision', '', 0),
+(65, 1, '2017-02-02 03:56:34', '2017-02-02 03:56:34', '<div class="anyipsum-output">\r\n\r\nBacon ipsum dolor amet kevin ribeye ham hock porchetta ball tip burgdoggen, turkey chuck pork chop tenderloin sausage filet mignon landjaeger. Tri-tip turducken pork chop jerky, salami filet mignon t-bone fatback pancetta swine. Andouille kevin tri-tip corned beef, jowl jerky salami pork chop cow ham short loin frankfurter. Tenderloin beef ribs venison, meatloaf boudin turducken jerky ground round t-bone. Biltong ham hock tenderloin bresaola shank, salami chuck cow pancetta ground round alcatra. Landjaeger tri-tip swine rump sirloin.\r\n\r\nPork belly pastrami ball tip turkey tenderloin t-bone short ribs, cow rump ribeye spare ribs beef ribs prosciutto meatloaf. Chicken salami alcatra, short loin biltong jerky beef sausage bacon burgdoggen venison ball tip. Capicola boudin cow prosciutto. Tenderloin flank t-bone, boudin beef ribs spare ribs short ribs porchetta pancetta andouille meatball filet mignon. Pancetta bresaola cupim brisket sirloin kevin ham.\r\n\r\n</div>\r\n<div class="anyipsum-form-header">Does your lorem ipsum text long for something a little meatier? Give our generator a try… it’s tasty!</div>', 'sample sample', '', 'inherit', 'closed', 'closed', '', '62-revision-v1', '', '', '2017-02-02 03:56:34', '2017-02-02 03:56:34', '', 62, 'http://localhost/wordpress/62-revision-v1/', 0, 'revision', '', 0);
 
 -- --------------------------------------------------------
 
@@ -670,7 +677,11 @@ INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_orde
 (60, 1, 0),
 (60, 13, 0),
 (60, 14, 0),
-(60, 16, 0);
+(60, 16, 0),
+(62, 1, 0),
+(62, 12, 0),
+(62, 16, 0),
+(62, 18, 0);
 
 -- --------------------------------------------------------
 
@@ -692,7 +703,7 @@ CREATE TABLE `wp_term_taxonomy` (
 --
 
 INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `description`, `parent`, `count`) VALUES
-(1, 1, 'category', '', 0, 3),
+(1, 1, 'category', '', 0, 4),
 (2, 2, 'nav_menu', '', 0, 9),
 (3, 3, 'post_tag', '', 0, 1),
 (4, 4, 'category', '', 0, 1),
@@ -703,13 +714,13 @@ INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `desc
 (9, 9, 'category', '', 0, 0),
 (10, 10, 'category', '', 0, 0),
 (11, 11, 'category', '', 0, 0),
-(12, 12, 'post_tag', '', 0, 1),
+(12, 12, 'post_tag', '', 0, 2),
 (13, 13, 'post_tag', '', 0, 1),
 (14, 14, 'post_tag', '', 0, 1),
 (15, 15, 'post_tag', '', 0, 0),
-(16, 16, 'post_tag', '', 0, 1),
+(16, 16, 'post_tag', '', 0, 2),
 (17, 17, 'nav_menu', '', 0, 3),
-(18, 18, 'post_tag', '', 0, 1);
+(18, 18, 'post_tag', '', 0, 2);
 
 -- --------------------------------------------------------
 
@@ -903,17 +914,17 @@ ALTER TABLE `wp_links`
 -- AUTO_INCREMENT for table `wp_options`
 --
 ALTER TABLE `wp_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=460;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=464;
 --
 -- AUTO_INCREMENT for table `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=236;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=243;
 --
 -- AUTO_INCREMENT for table `wp_posts`
 --
 ALTER TABLE `wp_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=62;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=66;
 --
 -- AUTO_INCREMENT for table `wp_termmeta`
 --
