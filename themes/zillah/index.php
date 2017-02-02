@@ -17,7 +17,7 @@ $zillah_alternative_layout = get_theme_mod( 'zillah_alt_layout', false );
 
 get_header(); ?>
 	<?php zillah_hook_index_before(); ?>
-	
+
 	<div class="content-wrap">
 
 		<div id="primary" class="content-area content-area-arch<?php echo $zillah_sidebar_show !== false ? ' content-area-with-sidebar' : ''; ?>">
@@ -58,6 +58,7 @@ get_header(); ?>
 			endif; ?>
 
 				<?php zillah_hook_index_bottom(); ?>
+				sad sad
 			</main><!-- #main -->
 		</div><!-- #primary -->
 
