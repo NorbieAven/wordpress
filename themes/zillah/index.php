@@ -58,7 +58,7 @@ get_header(); ?>
 			endif; ?>
 
 				<?php zillah_hook_index_bottom(); ?>
-				sad sad
+				
 			</main><!-- #main -->
 		</div><!-- #primary -->
 
