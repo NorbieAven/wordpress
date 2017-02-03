@@ -6,7 +6,7 @@
  *
  * @package zillah
  */
-
+add_filter( 'jetpack_development_mode', '__return_true' );
 if ( ! function_exists( 'zillah_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
